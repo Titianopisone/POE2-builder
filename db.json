@@ -1,0 +1,17 @@
+{
+    "users":[],
+    "classes":[
+        {
+            "id":1,
+            "name":"witch",
+            "description":"lorem",
+            "stats":"Intelligence",
+            "Armes":"Baguette,Batons et focus",
+            "type de dégats":"Élémentaire et physique",
+            "type de défense":"Magic shield"
+        }
+        {
+            "id":2
+        }
+    ]
+}

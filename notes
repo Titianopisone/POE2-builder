@@ -1,0 +1,34 @@
+Faires des routers link pour naviguer
+créer des composant/puis route et pour lien router link
+
+Pour chaque classes il faut description/stat prinicpales(couleur)/armes/types de défenses(shield/magic shield ou evasion)/types de dégat.
+
+Pour chaque armes il faut Classes liée/mettre dans un tableau et essayer de les choper en BDD via l'api si sotie
+
+Pour chaque armure il faut tableau /BDD via api
+
+Pour chaque accéssoire il faut tableau /BDD via api
+
+Pour chaque charme il faut tableau /BDD via api
+
+Pour les skillgemmes  il faut tableau /BDD via api/couleur principale(preciser si dex str ou int)/quand selectionner voir les support gemme associer/niveaux d'obtention avec lvl de gemme min
+
+Pour les Spiritgemme il faut Classes liée/tableau /BDD via api/couleur principale(preciser si dex str ou int)/quand selectionner voir les support gemme associer/niveaux d'obtention avec lvl de gemme min
+
+Pour les support gemme il faut tableau /BDD via api/Couleur/niveaux d'obtention avec lvl de gemme min
+
+Pour le passif tree recuperer dans l'api ou renvoye rsur le site de POE2 
+
+calculator doit permettre de calculer toutes les stat ingame en prenant en compte le stuff (modificateur compris)/les passif/l'ascendence/les buff de support gemme et spirit gemme
+
+builder doit avoir la possibilité de choisir une classe/un stuff avec une barre de recherche/des skills gemme en lui mettant des support gemmes (1seul suport de chaque)/spirit gemme/passif/ascendence/
+Point bonus mettre une méthode pour choisir son lvl et ne voir que les gemmes dispo a son lvl
+
+
+Druide
+Mercenary
+Monk
+Ranger
+Sorceress
+Warrior
+Witch

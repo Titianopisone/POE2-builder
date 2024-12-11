@@ -1,0 +1,16 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: auto;
+    padding: auto;
+    background-image: url('../public/Asset/images/background/desertrouge.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+}
