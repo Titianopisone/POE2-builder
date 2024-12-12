@@ -1,7 +1,8 @@
 import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
-import { Classe, ClassesService } from '../../services/classes.service';
+import { Classe, ClassesService } from '../../services/classes/classes.service';
+
 
 @Component({
   selector: 'app-home',

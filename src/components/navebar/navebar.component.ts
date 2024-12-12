@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
-import { Classe, ClassesService } from '../../services/classes.service';
 import { HttpClient } from '@angular/common/http';
 import { RouterLink } from '@angular/router';
+import { Classe, ClassesService } from '../../services/classes/classes.service';
 
 @Component({
   selector: 'app-navebar',
