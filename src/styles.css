@@ -1,16 +1,37 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
 :root{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    margin: auto;
-    padding: auto;
     background-image: url('../public/Asset/images/background/desertrouge.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    color: white;
+    
 }
 h2{
     font-size: 35px;
     font-weight: normal;
     font-style: normal;
 }
+.text-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    width: 100%; /* Optionnel : occupe toute la largeur */
+    text-align: center; /* Centre le texte */
+  }
+.text-containers {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;   
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }

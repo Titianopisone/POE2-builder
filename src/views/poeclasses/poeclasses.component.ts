@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Classe, ClassesService } from '../../services/classes.service';
 import { ActivatedRoute } from '@angular/router';
+import { Classe, ClassesService } from '../../services/classes.service';
 
 @Component({
   selector: 'app-poeclasses',

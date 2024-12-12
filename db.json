@@ -4,7 +4,7 @@
         {
             "id":1,
             "name":"Sorcière",
-            "description":"lorem",
+            "description":"La sorcière est spécialisée dans la magie occulte et la nécromancie, ce qui vous permet de construire une armée, d'utiliser des sorts d'os et de répandre des affaiblissements pour attaquer les ennemis à distance ou déclencher une épidémie.",
             "stats":"Intelligence",
             "Armes":"Batons et focus",
             "typeDeDegats":"Élémentaire et physique",
@@ -13,7 +13,7 @@
         {
             "id":2,
             "name":"Magicienne",
-            "description":"lorem",
+            "description":"La sorcière est une classe basée sur l'intelligence qui se concentre sur la magie élémentaire, capable de tuer instantanément les hordes ennemies ou d'écraser les boss avec une seule capacité dévastatrice.",
             "stats":"Intelligence",
             "Armes":"Baguette",
             "typeDeDegats":"Élémentaire et physique",
@@ -22,7 +22,7 @@
         {
             "id":3,
             "name":"Guerrier",
-            "description":"lorem",
+            "description":"Le Guerrier brille par son efficacité dans les coups lourds qui font onduler ses dégâts, ce qui en fait un excellent choix pour faire exploser les hordes ennemies et les boss.",
             "stats":"Force",
             "Armes":"Masses",
             "typeDeDegats":"",
@@ -31,7 +31,7 @@
         {
             "id":4,
             "name":"Maraudeur",
-            "description":"lorem",
+            "description":"Le Maraudeur est une classe barbare qui s'enfonce dans le combat à visage découvert. Leurs lourdes haches affûtées sont sûres de couper leurs adversaires en deux.",
             "stats":"Force",
             "Armes":"Hache",
             "typeDeDegats":"Élémentaire et physique",
@@ -40,7 +40,7 @@
         {
             "id":5,
             "name":"Ranger",
-            "description":"lorem",
+            "description":"Le Rôdeur est un spécialiste de l'arc qui utilise son agilité et ses capacités pour contrôler les foules ou éliminer les hordes et endommager les boss.",
             "stats":"Dexterité",
             "Armes":"Arc",
             "typeDeDegats":"",
@@ -49,7 +49,7 @@
         {
             "id":6,
             "name":"Chasserese",
-            "description":"lorem",
+            "description":"La chasseresse est une classe polyvalente qui utilise ses capacités pour abattre les ennemis au corps à corps et à distance, ce qui facilite les dégâts grâce à ses options de mobilité et de portée.",
             "stats":"Dexterité",
             "Armes":"Lance",
             "typeDeDegats":"Élémentaire et physique",
@@ -58,16 +58,16 @@
         {
             "id":7,
             "name":"Moine",
-            "description":"lorem",
+            "description":"Le moine est une classe complexe qui combine dextérité et intelligence pour se déplacer sur le champ de bataille avec un mélange d'attaques physiques fluides et de sorts élémentaires.",
             "stats":"Dextérité et intelligence" ,
             "Armes":"",
-            "typeDeDegats":"",
+            "typeDeDegats":"Élémentaire et physique",
             "typeDeDefense":""
         },
         {
             "id":8,
             "name":"Ombre",
-            "description":"lorem",
+            "description":"L'Ombre est une classe rusée basée sur les égorgeurs et les voleurs. Ils utilisent leurs moments d'insaisissabilité et leurs poignards aiguisés pour éliminer leurs ennemis.",
             "stats":"Dextérité et intelligence",
             "Armes":"Dague",
             "typeDeDegats":"Élémentaire et physique",
@@ -76,7 +76,7 @@
         {
             "id":9,
             "name":"Mercenaire",
-            "description":"lorem",
+            "description":"Le mercenaire peut utiliser plusieurs arbalètes et types de munitions pour faire face à toutes les situations à distance. Il peut détruire les boucliers ou les armures des ennemis avec des tirs rapides, bloquer les chemins avec un mur de glace ou tirer sur les boss pour les abattre.",
             "stats":"Force et dextérité",
             "Armes":"Baguette,Batons et focus",
             "typeDeDegats":"Élémentaire et physique",
@@ -85,7 +85,7 @@
         {
             "id":10,
             "name":"Duelliste",
-            "description":"lorem",
+            "description":"Le duelliste est une classe axée sur la finesse qui tranche les ennemis comme des rubans. Il utilise ses coups d'épée calculés pour laisser ses adversaires dans l'expectative.",
             "stats":"Force et dextérité",
             "Armes":"Épées",
             "typeDeDegats":"Élémentaire et physique",
@@ -94,7 +94,7 @@
         {
             "id":11,
             "name":"Druide",
-            "description":"lorem",
+            "description":"Le druide est une classe de métamorphose qui allie force et intelligence. Sous forme humaine, le druide peut lancer des sorts pour endommager les ennemis à distance. Sous forme animale, il peut piétiner les hordes ennemies ou porter des coups dévastateurs de près.",
             "stats":"Force et intelligence",
             "Armes":"Sceptre",
             "typeDeDegats":"Élémentaire et physique",
@@ -103,7 +103,7 @@
         {
             "id":12,
             "name":"Templier",
-            "description":"lorem",
+            "description":"Le templier est une classe axée sur la foi qui tente d'invoquer la lumière sacrée et de frapper ses ennemis.",
             "stats":"Force et intelligence",
             "Armes":"Fléaux",
             "typeDeDegats":"Élémentaire et physique",
