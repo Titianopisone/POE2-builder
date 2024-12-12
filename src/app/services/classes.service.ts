@@ -23,4 +23,7 @@ export interface Classe{
   id:number,
   name:string,
   description:string,
+  stats:string,
+  typeDeDegats:string,
+  typeDeDefense:string
 }

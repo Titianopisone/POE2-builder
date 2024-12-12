@@ -1,3 +1,10 @@
-<h1>{{classe?.name}}</h1>
-
-<p>{{classe?.description}}</p>
+@if (classe) {
+    <h1>{{classe.name}}</h1>
+    
+    <p>
+    Stats: {{classe.stats}} <br>
+    Type de dégats: {{classe.typeDeDegats}} <br>
+    Type de défense: {{classe.typeDeDefense}} <br>
+     {{classe.description}}
+    </p>
+}

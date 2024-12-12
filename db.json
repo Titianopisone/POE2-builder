@@ -3,15 +3,111 @@
     "classes":[
         {
             "id":1,
-            "name":"witch",
+            "name":"Sorcière",
             "description":"lorem",
             "stats":"Intelligence",
-            "Armes":"Baguette,Batons et focus",
-            "type de dégats":"Élémentaire et physique",
-            "type de défense":"Magic shield"
-        }
+            "Armes":"Batons et focus",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
+        },
         {
-            "id":2
+            "id":2,
+            "name":"Magicienne",
+            "description":"lorem",
+            "stats":"Intelligence",
+            "Armes":"Baguette",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
+        },
+        {
+            "id":3,
+            "name":"Guerrier",
+            "description":"lorem",
+            "stats":"Force",
+            "Armes":"Masses",
+            "typeDeDegats":"",
+            "typeDeDefense":""
+        },
+        {
+            "id":4,
+            "name":"Maraudeur",
+            "description":"lorem",
+            "stats":"Force",
+            "Armes":"Hache",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
+        },
+        {
+            "id":5,
+            "name":"Ranger",
+            "description":"lorem",
+            "stats":"Dexterité",
+            "Armes":"Arc",
+            "typeDeDegats":"",
+            "typeDeDefense":""
+        },
+        {
+            "id":6,
+            "name":"Chasserese",
+            "description":"lorem",
+            "stats":"Dexterité",
+            "Armes":"Lance",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
+        },
+        {
+            "id":7,
+            "name":"Moine",
+            "description":"lorem",
+            "stats":"Dextérité et intelligence" ,
+            "Armes":"",
+            "typeDeDegats":"",
+            "typeDeDefense":""
+        },
+        {
+            "id":8,
+            "name":"Ombre",
+            "description":"lorem",
+            "stats":"Dextérité et intelligence",
+            "Armes":"Dague",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
+        },
+        {
+            "id":9,
+            "name":"Mercenaire",
+            "description":"lorem",
+            "stats":"Force et dextérité",
+            "Armes":"Baguette,Batons et focus",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
+        },
+        {
+            "id":10,
+            "name":"Duelliste",
+            "description":"lorem",
+            "stats":"Force et dextérité",
+            "Armes":"Épées",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
+        },
+        {
+            "id":11,
+            "name":"Druide",
+            "description":"lorem",
+            "stats":"Force et intelligence",
+            "Armes":"Sceptre",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
+        },
+        {
+            "id":12,
+            "name":"Templier",
+            "description":"lorem",
+            "stats":"Force et intelligence",
+            "Armes":"Fléaux",
+            "typeDeDegats":"Élémentaire et physique",
+            "typeDeDefense":"Magic shield"
         }
     ]
 }
