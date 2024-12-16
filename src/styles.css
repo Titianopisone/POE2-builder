@@ -1,8 +1,10 @@
-body,html{
+body,
+html {
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     background-image: url('../public/Asset/images/background/desertrouge.jpg');
@@ -11,27 +13,61 @@ body,html{
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    
+
 }
-h2{
+
+h2 {
     font-size: 35px;
     font-weight: normal;
     font-style: normal;
 }
-.text-container {
-    background-color: rgba(0, 0, 0, 0.75);
-    color: white; 
-    padding: 10px; 
-    border-radius: 5px; 
-    display: inline-block; 
-    width: 100%; /* Optionnel : occupe toute la largeur */
-    text-align: center; /* Centre le texte */
-  }
+
+.paragraphe{
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 22px;
+    width: 100%;
+}
+
 .text-containers {
     background-color: rgba(0, 0, 0, 0.75);
-    color: white;   
+    color: white;
     padding: 10px;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-evenly;
-  }
+}
+
+.titre {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Hauteur minimum pour couvrir l'écran */
+}
+
+/* Le contenu principal prend tout l'espace disponible */
+.content-wrap {
+    flex: 1;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
