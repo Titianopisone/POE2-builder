@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { RouterLink } from '@angular/router';
 import { Classe, ClassesService } from '../../services/classes/classes.service';
+import { Gemme, GemmesService } from '../../services/gemmes/gemmes.service';
 
 @Component({
   selector: 'app-navebar',
@@ -11,6 +12,7 @@ import { Classe, ClassesService } from '../../services/classes/classes.service';
 })
 export class NavebarComponent {
  classes: Classe[] = [];
+ gemmes: Gemme[]=[];
 isclassemenuVisible: boolean= false;
 isgemmemenuVisible: boolean= false;
 isequipementmenuVisible: boolean= false;

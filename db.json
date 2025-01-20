@@ -146,5 +146,22 @@
             "ascendense2":"",
             "etat":"Classe non disponible"
         }
+    ],
+    "gemmes":[
+        {
+            "id":1,
+            "name":"gemme d'aptitude",
+            "description":"Les gemmes d'aptitude sont des objets essentiels qui permettent d'utiliser des compétences variées, qu'elles soient offensives, défensives ou de soutien. Dans Path of Exile 2, chaque gemme d'aptitude représente une compétence spécifique que vous pouvez équiper dans des emplacements de gemmes disponibles sur vos armes et armures. Ces gemmes progressent avec l'expérience acquise, gagnant en puissance et en efficacité. Certaines gemmes offrent des attaques dévastatrices, d'autres invoquent des serviteurs ou déclenchent des effets stratégiques tels que des ralentissements ou des boucliers protecteurs. Associées aux gemmes de soutien, elles peuvent être modifiées pour ajuster leur comportement, ajouter des effets secondaires ou amplifier leurs dégâts, offrant une flexibilité et une personnalisation infinies pour s'adapter à votre style de jeu."
+        },
+        {
+            "id":2,
+            "name":"gemme de soutient",
+            "description":"Les gemmes de soutien, comme leur nom l'indique, sont conçues pour modifier ou renforcer les effets des gemmes de compétence actives. Contrairement aux gemmes classiques, elles ne confèrent pas de compétences directement, mais ajoutent des effets passifs spécifiques aux compétences auxquelles elles sont liées. Dans Path of Exile 2, l'utilisation des gemmes de soutien a été repensée : elles s'insèrent directement dans les emplacements de gemmes des armes ou armures. Cela simplifie leur gestion en supprimant les liens entre les emplacements, tout en conservant une profondeur stratégique, car chaque combinaison de gemmes peut drastiquement transformer les compétences associées. Par exemple, une gemme de soutien peut augmenter les dégâts, modifier le comportement d'une compétence ou ajouter des effets supplémentaires comme des projectiles multiples ou des effets de contrôle."
+        },
+        {
+            "id":3,
+            "name":"gemme d'esprit",
+            "description":"Dans Path of Exile 2, les gemmes d'esprit sont une nouveauté qui offrent des améliorations passives persistantes, telles que des buffs ou des invocations de serviteurs. Pour les activer, elles nécessitent une ressource appelée 'esprit', qui est réservée de manière permanente lors de leur utilisation."
+        }
     ]
 }

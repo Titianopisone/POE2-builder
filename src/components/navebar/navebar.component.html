@@ -24,8 +24,8 @@
               <div class="dropdown-menu">
                   <!-- Boucle dynamique pour générer les sous-menus -->
                   <div class="text-containers">
-                      @for (classe of classes; track $index) {
-                      <button routerLink="classes/{{classe.id}}" class="dropdown-item">{{classe.name}}</button>
+                      @for (gemme of gemmes; track $index) {
+                      <button routerLink="classes/{{gemme.id}}" class="dropdown-item">{{gemme.name}}</button>
                       }
                   </div>
     
