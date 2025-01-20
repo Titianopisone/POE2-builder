@@ -26,5 +26,7 @@ export interface Classe{
   stats:string,
   typeDeDegats:string,
   typeDeDefense:string,
-  imagedeClasse:string
+  etat:string,
+  ascendense1:string,
+  ascendense2:string
 }

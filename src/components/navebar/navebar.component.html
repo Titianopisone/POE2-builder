@@ -2,4 +2,24 @@
 @for (classe of classes; track $index) {
     <button routerLink="classes/{{classe.id}}">{{classe.name}}</button>
 }
+
 </div>
+<div class="container mt-5">
+    <h1>Menu des Classes</h1>
+    <ul class="nav flex-column">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Classes
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <!-- Boucle dynamique pour générer les sous-menus -->
+          <div class="text-containers">
+            <button *ngFor="let classe of classes" [routerLink]="'/classes/' + classe.id" class="dropdown-item">
+             {{classe.name}}
+            </button>
+          </div>
+          
+        </div>
+      </li>
+    </ul>
+  </div>

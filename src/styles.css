@@ -71,3 +71,9 @@ h2 {
     display: inline-block;
     text-align: center;
 }
+.text-container {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+margin: 20px;
+}
+
