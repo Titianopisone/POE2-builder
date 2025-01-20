@@ -1,25 +1,68 @@
-<div class="text-containers">
-@for (classe of classes; track $index) {
-    <button routerLink="classes/{{classe.id}}">{{classe.name}}</button>
-}
-
-</div>
-<div class="container mt-5">
-    <h1>Menu des Classes</h1>
+<div class="container mt-5">  
     <ul class="nav flex-column">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Classes
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <!-- Boucle dynamique pour générer les sous-menus -->
-          <div class="text-containers">
-            <button *ngFor="let classe of classes" [routerLink]="'/classes/' + classe.id" class="dropdown-item">
-             {{classe.name}}
+        <li class="nav-item dropdown">
+            <button class="nav-link dropdown-toggle" href="#" role="button" (click)="toggleSubmenu('classe')">
+                Classes
             </button>
-          </div>
-          
-        </div>
-      </li>
+            @if(isclassemenuVisible) {
+              <div class="dropdown-menu">
+                  <!-- Boucle dynamique pour générer les sous-menus -->
+                  <div class="text-containers">
+                      @for (classe of classes; track $index) {
+                      <button routerLink="classes/{{classe.id}}" class="dropdown-item">{{classe.name}}</button>
+                      }
+                  </div>
+    
+              </div>
+            }
+        </li>
+        <li class="nav-item dropdown">
+            <button class="nav-link dropdown-toggle" href="#" role="button" (click)="toggleSubmenu('gemme')">
+                Gemmes
+            </button>
+            @if(isgemmemenuVisible) {
+              <div class="dropdown-menu">
+                  <!-- Boucle dynamique pour générer les sous-menus -->
+                  <div class="text-containers">
+                      @for (classe of classes; track $index) {
+                      <button routerLink="classes/{{classe.id}}" class="dropdown-item">{{classe.name}}</button>
+                      }
+                  </div>
+    
+              </div>
+            }
+        </li>
+        <li class="nav-item dropdown">
+            <button class="nav-link dropdown-toggle" href="#" role="button" (click)="toggleSubmenu('equipement')">
+                Equipement
+            </button>
+            @if(isequipementmenuVisible) {
+              <div class="dropdown-menu">
+                  <!-- Boucle dynamique pour générer les sous-menus -->
+                  <div class="text-containers">
+                      @for (classe of classes; track $index) {
+                      <button routerLink="classes/{{classe.id}}" class="dropdown-item">{{classe.name}}</button>
+                      }
+                  </div>
+    
+              </div>
+            }
+        </li>
+        <li class="nav-item dropdown">
+            <button class="nav-link dropdown-toggle" href="#" role="button" (click)="toggleSubmenu('build')">
+                Build
+            </button>
+            @if(isbuildmenuVisible) {
+              <div class="dropdown-menu">
+                  <!-- Boucle dynamique pour générer les sous-menus -->
+                  <div class="text-containers">
+                      @for (classe of classes; track $index) {
+                      <button routerLink="classes/{{classe.id}}" class="dropdown-item">{{classe.name}}</button>
+                      }
+                  </div>
+    
+              </div>
+            }
+        </li>
     </ul>
   </div>

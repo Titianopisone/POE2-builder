@@ -8,7 +8,7 @@
             "stats":"Intelligence",
             "Armes":"Batons et focus",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
+            "typeDeDefense":"Bouclier magique",
             "ascendense1":"Blood mage",
             "ascendense2":"Infernalist",
             "etat":"Classe disponible"
@@ -21,9 +21,9 @@
             "stats":"Intelligence",
             "Armes":"Baguette",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
-            "ascendense1":"",
-            "ascendense2":"",
+            "typeDeDefense":"Bouclier magique",
+            "ascendense1":"Chronomancer",
+            "ascendense2":"Stormweaver",
             "etat":"Classe disponible"
         },
         {
@@ -33,7 +33,7 @@
             "stats":"Force",
             "Armes":"Masses",
             "typeDeDegats":"Physique",
-            "typeDeDefense":"",
+            "typeDeDefense":"Armure et bouclier",
             "ascendense1":"",
             "ascendense2":"",
             "etat":"Classe non disponible"
@@ -45,9 +45,9 @@
             "stats":"Force",
             "Armes":"Hache",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
-            "ascendense1":"",
-            "ascendense2":"",
+            "typeDeDefense":"Armure et bouclier",
+            "ascendense1":"Titan",
+            "ascendense2":"Warbringer",
             "etat":"Classe disponible"
         },
         {
@@ -57,9 +57,9 @@
             "stats":"Dexterité",
             "Armes":"Arc",
             "typeDeDegats":"Élémentaire",
-            "typeDeDefense":"",
-            "ascendense1":"",
-            "ascendense2":"",
+            "typeDeDefense":"Esquive",
+            "ascendense1":"Deadeye",
+            "ascendense2":"Pathfinder",
             "etat":"Classe disponible"
         },
         {
@@ -69,7 +69,7 @@
             "stats":"Dexterité",
             "Armes":"Lance",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
+            "typeDeDefense":"Esquive",
             "ascendense1":"",
             "ascendense2":"",
             "etat":"Classe non disponible"
@@ -81,9 +81,9 @@
             "stats":"Dextérité et intelligence" ,
             "Armes":"Batons",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"",
-            "ascendense1":"",
-            "ascendense2":"",
+            "typeDeDefense":"Esquive",
+            "ascendense1":"Acolyte of Chayula",
+            "ascendense2":"Invoker",
             "etat":"Classe disponible"
         },
         {
@@ -93,7 +93,7 @@
             "stats":"Dextérité et intelligence",
             "Armes":"Dague",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
+            "typeDeDefense":"Esquive",
             "ascendense1":"",
             "ascendense2":"",
             "etat":"Classe non disponible"
@@ -105,9 +105,9 @@
             "stats":"Force et dextérité",
             "Armes":"Baguette,Batons et focus",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
-            "ascendense1":"",
-            "ascendense2":"",
+            "typeDeDefense":"Esquive",
+            "ascendense1":"Witchhunter",
+            "ascendense2":"Gemling Legionnaire",
             "etat":"Classe disponible"
         },
         {
@@ -117,7 +117,7 @@
             "stats":"Force et dextérité",
             "Armes":"Épées",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
+            "typeDeDefense":"Esquive",
             "ascendense1":"",
             "ascendense2":"",
             "etat":"Classe non disponible"
@@ -129,7 +129,7 @@
             "stats":"Force et intelligence",
             "Armes":"Sceptre",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
+            "typeDeDefense":"Bouclier magique",
             "ascendense1":"",
             "ascendense2":"",
             "etat":"Classe non disponible"
@@ -141,7 +141,7 @@
             "stats":"Force et intelligence",
             "Armes":"Fléaux",
             "typeDeDegats":"Élémentaire et physique",
-            "typeDeDefense":"Magic shield",
+            "typeDeDefense":"Armure et bouclier",
             "ascendense1":"",
             "ascendense2":"",
             "etat":"Classe non disponible"
