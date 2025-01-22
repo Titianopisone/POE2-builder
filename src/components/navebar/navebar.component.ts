@@ -17,11 +17,17 @@ isclassemenuVisible: boolean= false;
 isgemmemenuVisible: boolean= false;
 isequipementmenuVisible: boolean= false;
 isbuildmenuVisible: boolean= false;
-  constructor(private classesService: ClassesService) {
-    this.classesService.all().subscribe(result => {
-      this.classes = result;
-    });
-  }
+constructor(
+  private classesService: ClassesService,
+  private gemmesService: GemmesService
+) {
+  this.classesService.all().subscribe((result) => {
+    this.classes = result;
+  });
+  this.gemmesService.all().subscribe((result) => {
+    this.gemmes = result;
+  });
+}
   toggleSubmenu(submenuname:string): void {
    this.isbuildmenuVisible=false;
    this.isclassemenuVisible=false;

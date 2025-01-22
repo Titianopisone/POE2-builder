@@ -9,5 +9,8 @@ export const routes: Routes = [
         path:"classes/:id",
         loadComponent:()=>import("../views/poeclasses/poeclasses.component").then(m=>m.PoeclassesComponent)
     },
-
+    {
+        path:"gemmes/:id",
+        loadComponent:()=>import("../views/tutogemmes/tutogemmes.component").then(m=>m.TutogemmesComponent)
+    },
 ];
